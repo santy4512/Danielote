@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Línea de Tiempo de la Anatomía</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .timeline::before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #003874;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .timeline-element {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .timeline-element::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #003874;
+      border-radius: 50%;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .timeline-element .card {
+      position: relative;
+      width: 45%;
+    }
+
+    .timeline-element-left .card {
+      margin-left: auto;
+    }
+
+    .timeline-element-right .card {
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+       
+
+<body style=" background-image: url(https://images6.alphacoders.com/660/660492.jpg);">
+
+  
+  <div class="container py-5">
+    <h2 class="text-center mb-4">Línea de Tiempo de la Anatomía</h2>
+    <div class="timeline position-relative">
+
+      
+      <div class="timeline-element timeline-element-left">
+        <div class="card bg-light p-3" >
+          <h5 class="card-title">La Anatomía Antigua</h5>
+          <p class="card-text">
+            En la antigüedad, los egipcios y los griegos fueron los precursores de la anatomía humana. Los egipcios
+            utilizaron técnicas de momificación para preservar los cuerpos y estudiar la anatomía humana. Los griegos
+            como Hipócrates y Galeno realizaron disecciones de animales y humanos para estudiar la anatomía.
+          </p>
+          <small class="text-muted">4000 a.C.</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-right">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">Escuela de Medicina de Cnido</h5>
+          <p class="card-text">
+            La escuela de medicina de Cnido, fundada por Alcmeón de Crotona, realizó disecciones humanas para estudiar
+            la anatomía y la fisiología.
+          </p>
+          <small class="text-muted">460 a.C. - 370 a.C.</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-left">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">Herófilo</h5>
+          <p class="card-text">
+            Herófilo, un médico griego, realizó la primera disección humana pública y describió varios órganos como el
+            cerebro, el hígado y el corazón.
+          </p>
+          <small class="text-muted">280 a.C. - 220 a.C.</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-right">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">Galeno</h5>
+          <p class="card-text">
+            Galeno, un médico romano, realizó disecciones en animales y describió la anatomía humana en detalle. Sus
+            obras fueron utilizadas hasta la Edad Media.
+          </p>
+          <small class="text-muted">129 d.C. - 200 d.C.</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-left">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">La Edad Media</h5>
+          <p class="card-text">
+            En la Edad Media, la anatomía humana no fue estudiada en gran medida, aunque médicos árabes como Avicena y
+            Rhazes realizaron estudios importantes.
+          </p>
+          <small class="text-muted">1240 - 1316</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-right">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">Andreas Vesalio</h5>
+          <p class="card-text">
+            En 1543, Andreas Vesalio publicó "De Humani Corporis Fabrica", describiendo detalladamente la anatomía
+            humana con ilustraciones precisas.
+          </p>
+          <small class="text-muted">1543</small>
+        </div>
+      </div>
+
+
+      <div class="timeline-element timeline-element-left">
+        <div class="card bg-light p-3">
+          <h5 class="card-title">La Anatomía Moderna</h5>
+          <p class="card-text">
+            En la época moderna, la anatomía humana se estudió en gran detalle gracias a técnicas avanzadas como la
+            tomografía y la resonancia magnética.
+          </p>
+          <small class="text-muted">1895 - Presente</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class=" d-flex justify-content-center">
+    <a href="bo.html">
+        <button type="button" class="btn btn-primary">INICIO</button>
+    </a>
+</div>
+<script src="animaciones.js"></script>
+</body>
+
+<script src="animaciones.js"></script>
+  
+</body>
+
+</html>
